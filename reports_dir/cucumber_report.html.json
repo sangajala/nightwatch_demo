@@ -1,0 +1,3248 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can be navigate to registration page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-be-navigate-to-registration-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6056
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 170
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1204
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 503
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 39
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 53
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:53"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 5165
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 90
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 878
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 578
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 34
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 389
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1158
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 55
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:53"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can be navigate to registration page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-be-navigate-to-registration-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6056
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 170
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1204
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 503
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 39
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 53
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:53"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 5165
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 90
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 878
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 578
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 34
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 389
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1158
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 55
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:53"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can be navigate to registration page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-be-navigate-to-registration-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 7277
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 110
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 817
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 482
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 41
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 57
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 4996
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 87
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 896
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 580
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 39
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 438
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1976
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 70
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can be navigate to registration page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-be-navigate-to-registration-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 7277
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 110
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 817
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 482
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 41
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 57
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 4996
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 87
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 896
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 580
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 39
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 438
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1976
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 70
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can be navigate to registration page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-be-navigate-to-registration-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6134
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 185
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 691
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 475
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 37
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 54
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 5511
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 87
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 788
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 370
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 33
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 449
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1154
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 54
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can be navigate to registration page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-be-navigate-to-registration-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6134
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 185
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 691
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 475
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 37
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 54
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 5511
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 87
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 788
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 370
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 33
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 449
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1154
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 54
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can be navigate to registration page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-be-navigate-to-registration-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6134
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 185
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 691
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 475
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 37
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 54
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 5511
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 87
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 788
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 370
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 33
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 449
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1154
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 54
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 7542
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10182
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1897
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 668
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 66
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 1047
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1280
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 101
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end_demo_parallel_tests.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6463
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10222
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1968
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 445
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 62
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 950
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1210
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 87
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios single",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          },
+          {
+            "line": 12,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios-single;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 7542
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10182
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1897
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 668
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 66
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 1047
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1280
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 101
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios-single"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy path account creation scenarios",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end_demo_parallel_tests.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo_paralall"
+          }
+        ],
+        "id": "happy-path-account-creation-scenarios;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6463
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10222
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1968
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 445
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 62
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 950
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1210
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 87
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-path-account-creation-scenarios"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy Booking Path",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can be navigate to registration page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-booking-path;user-can-be-navigate-to-registration-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 9509
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10300
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1916
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 6151
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 142
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 196
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-booking-path;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 8799
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10192
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1912
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 473
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 64
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 816
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2430
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 172
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-booking-path"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy Booking Path",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User can be navigate to registration page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-booking-path;user-can-be-navigate-to-registration-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 12145
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 1299
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 2913
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 370
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 1159
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 238
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo"
+          }
+        ],
+        "id": "happy-booking-path;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 15257
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 176
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1042
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 239
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 931
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 1110
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2088
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 259
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-booking-path"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy Booking Path",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo1"
+          }
+        ],
+        "id": "happy-booking-path;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6275
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10252
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1869
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 1263
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 69
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 904
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "failed",
+              "duration": 101460,
+              "error_message": "ERROR: Unable to locate element: \"h3.RTL\" using: css selector\n    at Object.getText (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)\n    at Object.module.exports.commands.isUserRegistered (/Users/sriramangajala/dev/js/DEMO/nightwatch/page_objects/userHomePage.js:13:25)\n    at World.<anonymous> (/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:45:31)"
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "failed",
+              "duration": 5,
+              "error_message": "Expected element <h3.RTL> text to contain: \"autouser\" - element was not found - Expected \"present\" but got: \"not present\"\n    at Object.<anonymous> (/Users/sriramangajala/dev/js/DEMO/nightwatch/page_objects/userHomePage.js:15:36)\n    at endReadableNT (_stream_readable.js:975:12)\n    at _combinedTickCallback (internal/process/next_tick.js:74:11)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-booking-path"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy Booking Path",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo1"
+          }
+        ],
+        "id": "happy-booking-path;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6275
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10252
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1869
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 1263
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 69
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 904
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "failed",
+              "duration": 101460,
+              "error_message": "ERROR: Unable to locate element: \"h3.RTL\" using: css selector\n    at Object.getText (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)\n    at Object.module.exports.commands.isUserRegistered (/Users/sriramangajala/dev/js/DEMO/nightwatch/page_objects/userHomePage.js:13:25)\n    at World.<anonymous> (/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:45:31)"
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "failed",
+              "duration": 5,
+              "error_message": "Expected element <h3.RTL> text to contain: \"autouser\" - element was not found - Expected \"present\" but got: \"not present\"\n    at Object.<anonymous> (/Users/sriramangajala/dev/js/DEMO/nightwatch/page_objects/userHomePage.js:15:36)\n    at endReadableNT (_stream_readable.js:975:12)\n    at _combinedTickCallback (internal/process/next_tick.js:74:11)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-booking-path"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy Booking Path",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo1"
+          }
+        ],
+        "id": "happy-booking-path;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6275
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10252
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1869
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 1263
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 69
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 904
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "failed",
+              "duration": 101460,
+              "error_message": "ERROR: Unable to locate element: \"h3.RTL\" using: css selector\n    at Object.getText (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)\n    at Object.module.exports.commands.isUserRegistered (/Users/sriramangajala/dev/js/DEMO/nightwatch/page_objects/userHomePage.js:13:25)\n    at World.<anonymous> (/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:45:31)"
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "failed",
+              "duration": 5,
+              "error_message": "Expected element <h3.RTL> text to contain: \"autouser\" - element was not found - Expected \"present\" but got: \"not present\"\n    at Object.<anonymous> (/Users/sriramangajala/dev/js/DEMO/nightwatch/page_objects/userHomePage.js:15:36)\n    at endReadableNT (_stream_readable.js:975:12)\n    at _combinedTickCallback (internal/process/next_tick.js:74:11)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-booking-path"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy Booking Path",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo1"
+          }
+        ],
+        "id": "happy-booking-path;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 6978
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10267
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1815
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 611
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 68
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 1014
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 3356
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 100
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-booking-path"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy Booking Path",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo1"
+          }
+        ],
+        "id": "happy-booking-path;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 8491
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10273
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 1993
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 593
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 102
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 871
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 986
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 125
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-booking-path"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Happy Booking Path",
+    "tags": [],
+    "uri": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/end_to_end.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "User can create account with valid details",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@demo1"
+          }
+        ],
+        "id": "happy-booking-path;user-can-create-account-with-valid-details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 7765
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User is in home page",
+            "result": {
+              "status": "passed",
+              "duration": 10258
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 2021
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "he navigates to register page",
+            "result": {
+              "status": "passed",
+              "duration": 486
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "he should be in registration page",
+            "result": {
+              "status": "passed",
+              "duration": 98
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "he creates account with details autouser, tester, test@test.com and password1",
+            "result": {
+              "status": "passed",
+              "duration": 799
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account should be created successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2308
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 146
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/sriramangajala/dev/js/DEMO/nightwatch/features/step_definitions/steps.js:52"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "happy-booking-path"
+  }
+]

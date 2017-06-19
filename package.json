@@ -1,0 +1,41 @@
+{
+  "name": "cucumber-nightwatch",
+  "version": "0.0.1",
+  "description": "Nightwatch Cucumber Freamwork setup for testing a Sample Application",
+  "main": "cucumber.js",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "apickli": "latest",
+    "chai": "3.5.0",
+    "chromedriver": "2.25.1",
+    "cucumber": "2.1.0",
+    "cucumber-html-reporter": "0.5.2",
+    "eslint": "2.13.1",
+    "eslint-config-airbnb-base": "3.0.1",
+    "eslint-plugin-import": "1.9.2",
+    "geckodriver": "1.6.1",
+    "iedriver": "3.0.0",
+    "lodash.merge": "4.6.0",
+    "moment": "2.15.1",
+    "nightwatch-allure-adapter": "^1.2.4",
+    "nightwatch-cucumber": "7.1.2",
+    "phantomjs-prebuilt": "2.1.14",
+    "request": "^2.79.0",
+    "selenium-server": "3.4.0"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.15"
+  },
+
+  "scripts": {
+    "start": "nightwatch --tag demo",
+    "start:chrome": "nightwatch --tag demo --env chrome",
+    "start:parallel-single-browser": "nightwatch --tag demo_paralall --env chrome",
+    "start:parallel-multiple-browser": "nightwatch --tag demo --env chrome,firefox"
+  },
+  "author": "Sriram Angajala",
+  "license": "ISC"
+}
